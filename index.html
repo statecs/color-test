@@ -3,43 +3,27 @@
   <head>
     <title></title>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="    https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
     <div id="container">
-      <h2>Remember these icons:</h2>
+      <h2>Select test</h2>
           <div id="timer"></div>
       <table>
       <tr>
-        <td></td>
-        <td></td>
-        <td><i class="fa fa-6 fa-umbrella" aria-hidden="true"></i></td>
+        <td class="first"><a href="index-test1.html">Harmonious Test 1</a></td>
+        <td class="first"><a href="index-test2.html">Disharmonious Test 2</a></td>
+      </tr
+      <tr>
+       <td class="second"><a href="index-test3.html">Harmonious Test 3</a></td>
+        <td class="third"><a href="index-test4.html">Disharmonious Test 4</a></td>
       </tr>
       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><i class="fa fa-6 fa-car" aria-hidden="true"></i></td>
-        <td></td>
-        <td></td>
-      </tr>
     </table>
 
     </div>
     <script>
-      var timer = document.getElementById("timer");
-      var i = 0;
-      var interval = setInterval(function(){
-          document.getElementById("timer").innerHTML = i;
-          i++;
-          if(i === 10){
-            document.location = "index-result.html";
-            clearInterval(interval);
-          }
-      }, 1000);
     </script>
   </body>
 </html>

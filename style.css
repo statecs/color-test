@@ -14,6 +14,150 @@
         width:150px;
         height:150px;
       }
+       table td.first:nth-child(1) {
+        background-color: #b3e2d6;
+        color: white;
+      }
+       table td.first:nth-child(2) {
+        background-color: #76d0ae;
+        color: white;
+      }
+        table td.first:nth-child(3) {
+        background-color: #007443;
+        color: white;
+      }
+       table td.first2:nth-child(1) {
+        background-color: #c893ea;
+        color: white;
+      }
+       table td.first2:nth-child(2) {
+        background-color: #8c89fb;
+        color: white;
+      }
+        table td.first2:nth-child(3) {
+        background-color: #8c89fb;
+        color: white;
+      }
+        table td.second:nth-child(1) {
+        background-color: #77d1ae;
+        color: white;
+      }
+        table td.second:nth-child(2) {
+        background-color: #007443;
+        color: white;
+      }
+       table td.second:nth-child(3) {
+        background-color: #00a433;
+        color: white;
+      }
+       table td.second2:nth-child(1) {
+        background-color: #a846e5;
+        color: white;
+      }
+        table td.second2:nth-child(2) {
+        background-color: #c893ea;
+        color: white;
+      }
+       table td.second2:nth-child(3) {
+        background-color: #3530ff;
+        color: white;
+      }
+        table td.third:nth-child(1) {
+        background-color: #b4e2d7;
+        color: white;
+      }
+        table td.third:nth-child(2) {
+        background-color: #b3e2d6;
+        color: white;
+      }
+       table td.third:nth-child(3) {
+        background-color: #00a433;
+        color: white;
+      }
+         table td.third2:nth-child(1) {
+        background-color: #a846e5;
+        color: white;
+      }
+        table td.third2:nth-child(2) {
+        background-color: #8c89fb;
+        color: white;
+      }
+       table td.third2:nth-child(3) {
+        background-color: #3530ff;
+        color: white;
+      }
+        table td.forth:nth-child(1) {
+        background-color: #b3e3d6;
+        color: white;
+      }
+        table td.forth:nth-child(2) {
+        background-color: #76d0ae;
+        color: white;
+      }
+       table td.forth:nth-child(3) {
+        background-color: #fd3339;
+        color: white;
+      }
+       table td.forth2:nth-child(1) {
+        background-color: #3530ff;
+        color: white;
+      }
+        table td.forth2:nth-child(2) {
+        background-color: #f5f93f;
+        color: white;
+      }
+       table td.forth2:nth-child(3) {
+        background-color: #8c89fb;
+        color: white;
+      }
+        table td.fifth:nth-child(1) {
+        background-color: #77d1ae;
+        color: white;
+      }
+        table td.fifth:nth-child(2) {
+        background-color: #fc3339;
+        color: white;
+      }
+       table td.fifth:nth-child(3) {
+        background-color: #bf2e68;
+        color: white;
+      }
+        table td.fifth2:nth-child(1) {
+        background-color: #f5f93f;
+        color: white;
+      }
+        table td.fifth2:nth-child(2) {
+        background-color: #ebfbbb;
+        color: white;
+      }
+       table td.fifth2:nth-child(3) {
+        background-color: #8c89fb;
+        color: white;
+      }
+        table td.sixth:nth-child(1) {
+        background-color: #b4e3d7;
+        color: white;
+      }
+        table td.sixth:nth-child(2) {
+        background-color: #b4e2d7;
+        color: white;
+      }
+       table td.sixth:nth-child(3) {
+        background-color: #be2e68;
+        color: white;
+      }
+        table td.sixth2:nth-child(1) {
+        background-color: #f5f93f;
+        color: white;
+      }
+        table td.sixth2:nth-child(2) {
+        background-color: #3530ff;
+        color: white;
+      }
+       table td.sixth2:nth-child(3) {
+        background-color: #ebfbbb;
+        color: white;
+      }
       td a{
       	width:100%;
       	display:block;
