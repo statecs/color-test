@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="    https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container">
+      <h2>Remember these icons:</h2>
+          <div id="timer"></div>
+      <table>
+      <tr>
+        <td><i class="fa fa-6 fa-umbrella" aria-hidden="true"></i></td>
+        <td><i class="fa fa-6 fa-tree" aria-hidden="true"></i></td>
+        <td><i class="fa fa-6 fa-print" aria-hidden="true"></i></td>
+      </tr>
+      <tr>
+        <td><i class="fa fa-6 fa-file-image-o" aria-hidden="true"></i></td>
+        <td><i class="fa fa-6 fa-life-ring" aria-hidden="true"></i></td>
+        <td><i class="fa fa-6 fa-female" aria-hidden="true"></i></td>
+      </tr>
+      <tr>
+        <td><i class="fa fa-6 fa-gamepad" aria-hidden="true"></i></td>
+         <td><i class="fa fa-6 fa-coffee" aria-hidden="true"></i></td>
+          <td><i class="fa fa-6 fa-car" aria-hidden="true"></i></td>
+      </tr>
+    </table>
+
+    </div>
+    <script>
+      var timer = document.getElementById("timer");
+      var i = 0;
+      var interval = setInterval(function(){
+          document.getElementById("timer").innerHTML = i;
+          i++;
+          if(i === 20){
+            document.getElementById("container").innerHTML = "";
+            clearInterval(interval);
+          }
+      }, 1000);
+    </script>
+  </body>
+</html>

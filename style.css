@@ -1,0 +1,35 @@
+    body {
+      font-family: 'Lato', sans-serif;
+      text-align: center;
+    }
+      table {
+        margin: 0 auto; 
+        border-spacing: 7px;
+      }
+      table td {
+        border-radius: 3px;
+        padding: 20px 60px;
+        background-color: red;
+        color: white;
+        width:150px;
+        height:150px;
+      }
+      td a{
+      	width:100%;
+      	display:block;
+      	color:white;
+      }
+      table td.active{
+      	border:solid 5px black;
+      }
+      #timer {
+        text-align: center;
+        font-size: 20px;
+        color: black;
+      }
+      .fa-6 {
+        font-size: 12em;
+      }
+      .fa-5 {
+        font-size: 12em;
+      }

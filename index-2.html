@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="    https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    </style>
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="container">
+      <h2>Which do you remember?</h2>
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSdzb2RGlhJqwkg1UcPuNAhgwj0TaM81bko4M7NEp6R2eyWANQ/formResponse" target="_self" method="POST" id="mG61Hd">
+      <table>
+      <tr>
+   <td><a href="#"><i class="fa fa-6 fa-umbrella" aria-hidden="true"></i></a></td>
+        <td><a href="#"><i class="fa fa-6 fa-tree" aria-hidden="true"></i></a></td>
+        <td><a href="#"><i class="fa fa-6 fa-print" aria-hidden="true"></i></a></td>
+      </tr>
+      <tr>
+        <td><a href="#"><i class="fa fa-6 fa-file-image-o" aria-hidden="true"></i></a></td>
+        <td><a href="#"><i class="fa fa-6 fa-life-ring" aria-hidden="true"></i></a></td>
+        <td><a href="#"><i class="fa fa-6 fa-female" aria-hidden="true"></i></a></td>
+      </tr>
+      <tr>
+        <td><a href="#"><i class="fa fa-6 fa-gamepad" aria-hidden="true"></i></a></td>
+         <td><a href="#"><i class="fa fa-6 fa-coffee" aria-hidden="true"></i></a></td>
+          <td><a href="#"><i class="fa fa-6 fa-car" aria-hidden="true"></i></a></td>
+      </tr>
+    </table>
+
+    <input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action ">
+
+</form>
+    </div>
+    <script>
+
+    $(document).ready(function () {
+        $("td a").click( function() {
+          $(this).parent("td").toggleClass('active');
+        });
+     });
+
+    </script>
+  </body>
+</html>
